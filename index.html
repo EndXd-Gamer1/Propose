@@ -1,67 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EndXd_Gamer | Minecraft Server Developer</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You 💖</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="logo">EG</div>
 
-  <nav class="nav-links">
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="work.html">Work</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
-  <div class="hamburger">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-  </div>
-</header>
-
-  <main>
-    <section class="hero">
-      <h1>EndXd_Gamer</h1>
-      <h2>Minecraft Server Developer</h2>
-    </section>
-
-    <section class="server-types">
-      <h3>Servers I Can Create</h3>
-      <div class="types-grid">
-        <span>Survival</span>
-        <span>LifeSteal</span>
-        <span>PotionSteal</span>
-        <span>GemSteal</span>
-        <span>TokenSMP</span>
-        <span>SoulsSMP</span>
-        <span>PvPSMP</span>
-        <span>HeadSteal</span>
-        <span>MiniGames</span>
-        <span>Inventory Slot Steal</span>
-        <span>And Many More</span>
+<div id="lock" class="lockScreen">
+  <h1>🔐 Unlock My Heart</h1>
+  <input id="pass" type="password" placeholder="Secret code">
+  <button onclick="unlock()">Unlock 💖</button>
+  <p id="wrong"></p>
+    <div class="floatingHint">
+      <div class="heart">
+        <span class="heartText">Password: love</span>
       </div>
-    </section>
-  </main>
+    </div>
+</div>
 
-  <footer>
-    <p>© 2025 EndXd_Gamer | All Rights Reserved</p>
-  </footer>
+<audio id="yesSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_4d1b22e9ab.mp3"></audio>
+<audio id="noSound" src="https://cdn.pixabay.com/audio/2022/02/23/audio_70ad3f3e3b.mp3"></audio>
+<audio id="laughSound" src="https://cdn.pixabay.com/audio/2022/03/10/audio_49f2a5b40a.mp3"></audio>
 
-  <script>
-  const hamburger = document.querySelector('.hamburger');
-  const navLinks = document.querySelector('nav ul');
+<div class="glow"></div>
 
-  hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    navLinks.classList.toggle('open');
-  });
-</script>
+<div id="card" class="card hidden">
+  <div class="emoji">🥰</div>
+  <h1>Akshita</h1>
+  <p>I Love You ❤️</p>
+  <p>You are my sunshine ☀️</p>
+  <h2>Will you be mine?</h2>
+
+  <div class="buttons">
+    <button id="yes">YES 💍</button>
+    <button id="no">NO 🙈</button>
+  </div>
+
+<small>No seems to be a bit shy 😅</small>
+</div>
+
+<div id="sparkles"></div>
+<div id="petals"></div>
+
+<script src="script.js"></script>
+<div class="credit">Made by Raj Singhania</div>
 </body>
 </html>
