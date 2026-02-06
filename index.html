@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EndXd_Gamer | Minecraft Server Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="logo">EG</div>
+
+  <nav class="nav-links">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hamburger">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+</header>
+
+  <main>
+    <section class="hero">
+      <h1>EndXd_Gamer</h1>
+      <h2>Minecraft Server Developer</h2>
+    </section>
+
+    <section class="server-types">
+      <h3>Servers I Can Create</h3>
+      <div class="types-grid">
+        <span>Survival</span>
+        <span>LifeSteal</span>
+        <span>PotionSteal</span>
+        <span>GemSteal</span>
+        <span>TokenSMP</span>
+        <span>SoulsSMP</span>
+        <span>PvPSMP</span>
+        <span>HeadSteal</span>
+        <span>MiniGames</span>
+        <span>Inventory Slot Steal</span>
+        <span>And Many More</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 EndXd_Gamer | All Rights Reserved</p>
+  </footer>
+
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('nav ul');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+  });
+</script>
+</body>
+</html>
